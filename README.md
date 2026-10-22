@@ -19,7 +19,7 @@ Prerequisites: Node.js >= 18.18 and the backend running (see its README).
 npm install
 
 # 3. Configure environment (API_URL must point at the backend; set it BEFORE building)
-cp .env.example .env.local
+cp .env.example .env
 
 # 4. Run
 npm run dev                     # http://localhost:3000
@@ -103,9 +103,18 @@ Admins, doctors and patients all have an optional profile photo. Doctor and pati
 
 ## Visual Evidence
 
-Add screenshots to `docs/screenshots/` (desktop and mobile of Dashboard, Doctors, Doctor detail, Patients, Login) and reference them here:
+### Desktop
 
-```md
-![Dashboard – desktop](docs/screenshots/dashboard-desktop.png)
-![Dashboard – mobile](docs/screenshots/dashboard-mobile.png)
-```
+| Dashboard | Doctors |
+| --- | --- |
+| ![Dashboard - desktop](docs/screenshots/dashboard-desktop.png) | ![Doctors - desktop](docs/screenshots/doctors-desktop.png) |
+
+| Patients | Doctor detail |
+| --- | --- |
+| ![Patients - desktop](docs/screenshots/patients-desktop.png) | ![Doctor detail - desktop](docs/screenshots/doctor-detail-desktop.png) |
+
+### Mobile
+
+| Dashboard | Doctors | Patients |
+| --- | --- | --- |
+| ![Dashboard - mobile](docs/screenshots/dashboard-mobile.png) | ![Doctors - mobile](docs/screenshots/doctors-mobile.png) | ![Patients - mobile](docs/screenshots/patients-mobile.png) |
